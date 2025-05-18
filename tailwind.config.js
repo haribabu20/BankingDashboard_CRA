@@ -1,13 +1,9 @@
+// tailwind.config.js
 module.exports = {
-  //darkMode: 'class',
+  darkMode: 'class', // Not 'media'
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {
-      colors: {
-        primary: '#1e3a8a',
-        accent: '#22c55e',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

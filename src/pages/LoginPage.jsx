@@ -25,7 +25,10 @@ export default function LoginPage() {
           className="w-full p-2 border rounded mb-4"
           required
         />
-        <button type="submit" className="bg-primary text-white px-4 py-2 rounded w-full">
+        <button
+          type="submit"
+          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full transition"
+        >
           Login
         </button>
       </form>
