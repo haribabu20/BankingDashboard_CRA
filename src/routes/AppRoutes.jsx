@@ -32,11 +32,14 @@ export default function AppRoutes() {
             <Route path="/accounts" element={<AccountsPage />} />
 
               {/* New Sidebar Pages */}
-            <Route path="/customers" element={<div>Customer Details Page</div>} />
+            <Route path="/customers" element={<Customers/>} />
             <Route path="/reports" element={<div>Reports Page</div>} />
             <Route path="/throttling" element={<div>Throttling Page</div>} />
             <Route path="/exemption" element={<div>Exemption Page</div>} />
-            <Route path="/configuration" element={<div>Configuration Page</div>} />
+            <Route path="/configuration" element={<Configuration />} />
+
+
+
 
 
           </Route>
