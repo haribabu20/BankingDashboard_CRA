@@ -1,54 +1,81 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
-import { LogOut, Menu } from 'lucide-react';
+import React, { useState } from 'react';
+import {
+  Home,
+  Users,
+  FileText,
+  Activity,
+  ShieldOff,
+  Settings,
+  LogOut,
+  Sun,
+  Moon,
+} from 'lucide-react';
 
-export default function Sidebar({ isOpen, toggleSidebar }) {
-  const { user, logout } = useAuth();
+export default function Sidebar() {
+  const [isOpen, setIsOpen] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleSidebar = () => setIsOpen(!isOpen);
+  const toggleTheme = () => setDarkMode(!darkMode);
+
+  const navItems = [
+    { label: 'Dashboard', icon: <Home />, path: '/' },
+    { label: 'Customer Details', icon: <Users />, path: '/customers' },
+    { label: 'Reports', icon: <FileText />, path: '/reports' },
+    { label: 'Throttling', icon: <Activity />, path: '/throttling' },
+    { label: 'Exemption', icon: <ShieldOff />, path: '/exemption' },
+    { label: 'Configuration', icon: <Settings />, path: '/configuration' },
+  ];
 
   return (
-    <aside
+    <div
       className={`${
-        isOpen ? 'w-64' : 'w-16'
-      } bg-primary text-white h-screen p-4 transition-all duration-300 flex flex-col`}
+        isOpen ? 'w-64' : 'w-20'
+      } bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 h-screen p-4 shadow-lg transition-all duration-300 flex flex-col justify-between`}
     >
-      <button
-        onClick={toggleSidebar}
-        className="text-white mb-6 focus:outline-none"
-      >
-        <Menu />
-      </button>
+      {/* Top section */}
+      <div>
+        {/* Logo & Toggle */}
+        <div className="flex items-center justify-between mb-6">
+          <div className="text-xl font-bold">{isOpen ? 'BankDash' : 'BD'}</div>
+          <button
+            onClick={toggleSidebar}
+            className="text-gray-600 dark:text-gray-300"
+          >
+            {isOpen ? '<' : '>'}
+          </button>
+        </div>
 
-      <div className="mb-6">
-        {isOpen && (
-          <>
-            <p className="text-sm text-gray-300">Logged in as:</p>
-            <p className="font-semibold">{user?.email}</p>
-          </>
-        )}
+        {/* Navigation */}
+        <nav className="space-y-4">
+          {navItems.map((item, idx) => (
+            <a
+              key={idx}
+              href={item.path}
+              className="flex items-center gap-3 text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400"
+            >
+              {item.icon}
+              {isOpen && <span>{item.label}</span>}
+            </a>
+          ))}
+        </nav>
       </div>
 
-      <nav className="flex-1">
-        <NavLink to="/" className="block py-2 hover:text-gray-300">
-          Dashboard
-        </NavLink>
-        <NavLink to="/transactions" className="block py-2 hover:text-gray-300">
-          Transactions
-        </NavLink>
-        <NavLink to="/accounts" className="block py-2 hover:text-gray-300">
-          Accounts
-        </NavLink>
-      </nav>
+      {/* Bottom section */}
+      <div className="space-y-4">
+        <button className="flex items-center gap-3 text-sm font-medium hover:text-red-600">
+          <LogOut />
+          {isOpen && <span>Logout</span>}
+        </button>
 
-      <button
-        onClick={logout}
-        className="mt-auto flex items-center gap-2 text-sm hover:text-gray-300"
-      >
-        <LogOut size={18} />
-        {isOpen && 'Logout'}
-      </button>
-    </aside>
+        <button
+          onClick={toggleTheme}
+          className="flex items-center gap-3 text-sm font-medium hover:text-yellow-500"
+        >
+          {darkMode ? <Sun /> : <Moon />}
+          {isOpen && <span>{darkMode ? 'Light Mode' : 'Dark Mode'}</span>}
+        </button>
+      </div>
+    </div>
   );
 }
-
-// This Sidebar component is a navigation menu that appears on the left side of the application.  

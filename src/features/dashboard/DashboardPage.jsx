@@ -1,9 +1,8 @@
 import React from 'react';
-import SidebarLayout from '../../layouts/SidebarLayout';
 
 export default function DashboardPage() {
   return (
-    <SidebarLayout>
+    <>
       <h1 className="text-3xl font-semibold mb-6">Dashboard</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white rounded-xl shadow p-4">
@@ -19,6 +18,6 @@ export default function DashboardPage() {
           <p className="text-2xl mt-2 text-red-500">–$2,300</p>
         </div>
       </div>
-    </SidebarLayout>
+    </>
   );
 }
