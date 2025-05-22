@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { addCustomer } from '../services/customerApi';
 
 export default function Configuration() {
   const {
@@ -9,12 +10,16 @@ export default function Configuration() {
     reset
   } = useForm();
 
-  const onSubmit = (data) => {
-    // Save to localStorage as mock storage
-    const existing = JSON.parse(localStorage.getItem('customers') || '[]');
-    localStorage.setItem('customers', JSON.stringify([...existing, data]));
-    alert('Customer data saved locally!');
-    reset();
+  const onSubmit = async (data) => {
+    try {
+      console.log("Submitting data:", data);
+      await addCustomer(data);
+      alert('Customer data saved via API!');
+      reset();
+    } catch (error) {
+      console.error('Error saving customer:', error);
+      alert('Failed to save customer.');
+    }
   };
 
   return (
@@ -22,19 +27,19 @@ export default function Configuration() {
       <h2 className="text-2xl font-bold mb-6">Add Customer Configuration</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {[
-          ['cifId', 'CIF ID'],
-          ['caseId', 'Case ID'],
-          ['obligationType', 'Obligation Type'],
-          ['customerType', 'Customer Type'],
-          ['customerName', 'Customer Name'],
-          ['customerAddress', 'Customer Address'],
-          ['customerPhone', 'Customer Phone Number'],
-          ['customerEmail', 'Customer Email'],
-          ['customerStatus', 'Customer Status'],
-          ['accountNumber', 'Account Number'],
-          ['accountStatus', 'Account Status'],
-          ['caseStatus', 'Case Status'],
-          ['caseSubStatus', 'Case Sub Status']
+          ['cifid', 'CIF ID'],
+          ['caseid', 'Case ID'],
+          ['obligationtype', 'Obligation Type'],
+          ['customertype', 'Customer Type'],
+          ['customername', 'Customer Name'],
+          ['customeraddress', 'Customer Address'],
+          ['customerphone', 'Customer Phone Number'],
+          ['customeremail', 'Customer Email'],
+          ['customerstatus', 'Customer Status'],
+          ['accountnumber', 'Account Number'],
+          ['accountstatus', 'Account Status'],
+          ['casestatus', 'Case Status'],
+          ['casesubstatus', 'Case Sub Status']
         ].map(([key, label]) => (
           <div key={key} className="flex flex-col">
             <label className="font-medium mb-1" htmlFor={key}>{label}</label>
@@ -52,7 +57,7 @@ export default function Configuration() {
         <div className="md:col-span-3">
           <button
             type="submit"
-            className="w-full bg-primary text-white p-3 rounded hover:bg-primary-dark"
+            className="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700"
           >
             Save Customer
           </button>
@@ -60,4 +65,4 @@ export default function Configuration() {
       </form>
     </div>
   );
-} 
+}
