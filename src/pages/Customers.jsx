@@ -101,12 +101,12 @@ export default function Customers() {
           <tbody>
             {allCustomers.map((cust) => (
               <tr key={cust.id} className="bg-gray-900 text-white border-b border-gray-800">
-                <td className="px-4 py-2">{cust.cifid}</td>
-                <td className="px-4 py-2">{cust.customername}</td>
-                <td className="px-4 py-2">{cust.customeremail}</td>
-                <td className="px-4 py-2">{cust.customerphone}</td>
-                <td className="px-4 py-2">{cust.accountnumber}</td>
-                <td className="px-4 py-2">{cust.customerstatus}</td>
+                <td className="px-4 py-2">{cust['CIFId']}</td>
+                <td className="px-4 py-2">{cust['Customer Name']}</td>
+                <td className="px-4 py-2">{cust['Customer Email']}</td>
+                <td className="px-4 py-2">{cust['Customer Phone']}</td>
+                <td className="px-4 py-2">{cust['Account Number']}</td>
+                <td className="px-4 py-2">{cust['Customer Status']}</td>
                 <td className="px-4 py-2">
                   <button
                     onClick={() => handleDelete(cust.id)}

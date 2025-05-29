@@ -1,3 +1,804 @@
 {
-  "customers": []
+  "customers": [
+    {
+      "CIFId": 328359,
+      "Customer Name": "Ashlie",
+      "Customer Email": "alorait0@booking.com",
+      "Customer Phone": 68685085,
+      "Account Number": 6109,
+      "Customer Status": "Cauliflower Crust Pizza"
+    },
+    {
+      "CIFId": 292769,
+      "Customer Name": "Norah",
+      "Customer Email": "nbeacroft1@usatoday.com",
+      "Customer Phone": 64792788,
+      "Account Number": 4346,
+      "Customer Status": "Electric Kettle"
+    },
+    {
+      "CIFId": 358411,
+      "Customer Name": "Ogden",
+      "Customer Email": "orimbault2@posterous.com",
+      "Customer Phone": 60970532,
+      "Account Number": 8062,
+      "Customer Status": "Poppy Seed Dressing"
+    },
+    {
+      "CIFId": 283819,
+      "Customer Name": "Bink",
+      "Customer Email": "bbarge3@yellowbook.com",
+      "Customer Phone": 65236510,
+      "Account Number": 4924,
+      "Customer Status": "Almond Milk"
+    },
+    {
+      "CIFId": 209003,
+      "Customer Name": "Carmelita",
+      "Customer Email": "cthrossell4@cdbaby.com",
+      "Customer Phone": 69425857,
+      "Account Number": 7471,
+      "Customer Status": "Instant Mashed Potatoes"
+    },
+    {
+      "CIFId": 366201,
+      "Customer Name": "Desirae",
+      "Customer Email": "djacquet5@samsung.com",
+      "Customer Phone": 62158153,
+      "Account Number": 5413,
+      "Customer Status": "Desk Lamp with USB Port"
+    },
+    {
+      "CIFId": 234775,
+      "Customer Name": "Bevvy",
+      "Customer Email": "btowell6@deliciousdays.com",
+      "Customer Phone": 62631883,
+      "Account Number": 8931,
+      "Customer Status": "Electric Food Steamer"
+    },
+    {
+      "CIFId": 308672,
+      "Customer Name": "Eduardo",
+      "Customer Email": "emossdale7@ed.gov",
+      "Customer Phone": 62062013,
+      "Account Number": 9960,
+      "Customer Status": "Nutritional Yeast"
+    },
+    {
+      "CIFId": 341505,
+      "Customer Name": "Rozanne",
+      "Customer Email": "rdraco8@nasa.gov",
+      "Customer Phone": 65568165,
+      "Account Number": 1987,
+      "Customer Status": "Teriyaki Beef Strips"
+    },
+    {
+      "CIFId": 266310,
+      "Customer Name": "Ainsley",
+      "Customer Email": "avasilic9@vk.com",
+      "Customer Phone": 60343490,
+      "Account Number": 2514,
+      "Customer Status": "Non-Stick Baking Sheet"
+    },
+    {
+      "CIFId": 381700,
+      "Customer Name": "Demetri",
+      "Customer Email": "destea@lycos.com",
+      "Customer Phone": 69954669,
+      "Account Number": 8282,
+      "Customer Status": "Pet Hair Removal Roller"
+    },
+    {
+      "CIFId": 364632,
+      "Customer Name": "Agretha",
+      "Customer Email": "awhiterodb@ameblo.jp",
+      "Customer Phone": 61749737,
+      "Account Number": 3284,
+      "Customer Status": "Personal Blender with Cups"
+    },
+    {
+      "CIFId": 337071,
+      "Customer Name": "Jerrie",
+      "Customer Email": "jburthc@uiuc.edu",
+      "Customer Phone": 60545079,
+      "Account Number": 4074,
+      "Customer Status": "Luxury Bathrobe"
+    },
+    {
+      "CIFId": 267262,
+      "Customer Name": "Maryjo",
+      "Customer Email": "medserd@fc2.com",
+      "Customer Phone": 60955210,
+      "Account Number": 9134,
+      "Customer Status": "Self-Watering Planters"
+    },
+    {
+      "CIFId": 340373,
+      "Customer Name": "Terrill",
+      "Customer Email": "tmilnthorpee@ezinearticles.com",
+      "Customer Phone": 68577029,
+      "Account Number": 6894,
+      "Customer Status": "Almond Flour"
+    },
+    {
+      "CIFId": 309685,
+      "Customer Name": "Reamonn",
+      "Customer Email": "rbudnikf@canalblog.com",
+      "Customer Phone": 69819334,
+      "Account Number": 9600,
+      "Customer Status": "Measuring Cups Set"
+    },
+    {
+      "CIFId": 369112,
+      "Customer Name": "Sandro",
+      "Customer Email": "svynallg@vistaprint.com",
+      "Customer Phone": 69354955,
+      "Account Number": 7041,
+      "Customer Status": "Pita Bread"
+    },
+    {
+      "CIFId": 350624,
+      "Customer Name": "Carla",
+      "Customer Email": "croscriggh@taobao.com",
+      "Customer Phone": 69417983,
+      "Account Number": 5069,
+      "Customer Status": "Quinoa and Kale Salad Kit"
+    },
+    {
+      "CIFId": 263265,
+      "Customer Name": "Filmer",
+      "Customer Email": "fcriplei@com.com",
+      "Customer Phone": 62496687,
+      "Account Number": 9062,
+      "Customer Status": "Eco-Friendly Disposable Plates"
+    },
+    {
+      "CIFId": 286272,
+      "Customer Name": "Carlos",
+      "Customer Email": "cimpyj@qq.com",
+      "Customer Phone": 62129314,
+      "Account Number": 4080,
+      "Customer Status": "Ice Cream Maker"
+    },
+    {
+      "CIFId": 380443,
+      "Customer Name": "Obed",
+      "Customer Email": "olabbk@cloudflare.com",
+      "Customer Phone": 63796097,
+      "Account Number": 7711,
+      "Customer Status": "Classic Minestrone Soup"
+    },
+    {
+      "CIFId": 253175,
+      "Customer Name": "Reynolds",
+      "Customer Email": "rhargessl@prnewswire.com",
+      "Customer Phone": 60953260,
+      "Account Number": 7135,
+      "Customer Status": "Foot Massager"
+    },
+    {
+      "CIFId": 295004,
+      "Customer Name": "Cordelie",
+      "Customer Email": "cboffeym@angelfire.com",
+      "Customer Phone": 68590304,
+      "Account Number": 7418,
+      "Customer Status": "Fitbit Activity Tracker"
+    },
+    {
+      "CIFId": 382934,
+      "Customer Name": "Ulysses",
+      "Customer Email": "unootn@dailymail.co.uk",
+      "Customer Phone": 66687248,
+      "Account Number": 1717,
+      "Customer Status": "Portable Hand Warmer"
+    },
+    {
+      "CIFId": 261355,
+      "Customer Name": "Jeff",
+      "Customer Email": "jzorno@nytimes.com",
+      "Customer Phone": 63046133,
+      "Account Number": 6923,
+      "Customer Status": "Foam Building Blocks for Kids"
+    },
+    {
+      "CIFId": 285099,
+      "Customer Name": "Ruben",
+      "Customer Email": "rpritchardp@joomla.org",
+      "Customer Phone": 68014063,
+      "Account Number": 1690,
+      "Customer Status": "Balsamic Glazed Brussels Sprouts"
+    },
+    {
+      "CIFId": 249992,
+      "Customer Name": "George",
+      "Customer Email": "gbeldonq@google.fr",
+      "Customer Phone": 62649279,
+      "Account Number": 9448,
+      "Customer Status": "Apple Cinnamon Breakfast Muffins"
+    },
+    {
+      "CIFId": 244369,
+      "Customer Name": "Johnathan",
+      "Customer Email": "jdulantyr@jimdo.com",
+      "Customer Phone": 64768827,
+      "Account Number": 8073,
+      "Customer Status": "Honey Garlic Shrimp"
+    },
+    {
+      "CIFId": 295779,
+      "Customer Name": "Cobb",
+      "Customer Email": "cfritschmanns@state.gov",
+      "Customer Phone": 62920742,
+      "Account Number": 5528,
+      "Customer Status": "Smartphone Photography Tripod"
+    },
+    {
+      "CIFId": 312392,
+      "Customer Name": "Conroy",
+      "Customer Email": "ctuckwoodt@free.fr",
+      "Customer Phone": 64182163,
+      "Account Number": 3929,
+      "Customer Status": "Organic Coconut Flakes"
+    },
+    {
+      "CIFId": 238731,
+      "Customer Name": "Cleve",
+      "Customer Email": "cjizhakiu@illinois.edu",
+      "Customer Phone": 62409710,
+      "Account Number": 9504,
+      "Customer Status": "Vanilla Pudding Mix"
+    },
+    {
+      "CIFId": 325512,
+      "Customer Name": "Rockie",
+      "Customer Email": "rpoulsumv@soup.io",
+      "Customer Phone": 68289416,
+      "Account Number": 7451,
+      "Customer Status": "Artisan Bread Loaf"
+    },
+    {
+      "CIFId": 319668,
+      "Customer Name": "Tanhya",
+      "Customer Email": "tbedinhamw@tinyurl.com",
+      "Customer Phone": 66586767,
+      "Account Number": 8718,
+      "Customer Status": "Home Office Chair"
+    },
+    {
+      "CIFId": 234626,
+      "Customer Name": "Boy",
+      "Customer Email": "bduchantx@ning.com",
+      "Customer Phone": 69121652,
+      "Account Number": 5546,
+      "Customer Status": "Red Lentils"
+    },
+    {
+      "CIFId": 363019,
+      "Customer Name": "Arty",
+      "Customer Email": "aclutramy@bandcamp.com",
+      "Customer Phone": 68665319,
+      "Account Number": 2631,
+      "Customer Status": "Avocado Oil"
+    },
+    {
+      "CIFId": 247836,
+      "Customer Name": "Lorna",
+      "Customer Email": "lhassellz@elpais.com",
+      "Customer Phone": 61396959,
+      "Account Number": 1646,
+      "Customer Status": "Car Seat Organizer"
+    },
+    {
+      "CIFId": 384033,
+      "Customer Name": "Cristina",
+      "Customer Email": "cfeaveer10@livejournal.com",
+      "Customer Phone": 66226301,
+      "Account Number": 9742,
+      "Customer Status": "Tofu"
+    },
+    {
+      "CIFId": 283151,
+      "Customer Name": "Ansley",
+      "Customer Email": "asiegertsz11@ifeng.com",
+      "Customer Phone": 65893263,
+      "Account Number": 2049,
+      "Customer Status": "Multi-Port USB Hub"
+    },
+    {
+      "CIFId": 320872,
+      "Customer Name": "Dari",
+      "Customer Email": "dyitzovitz12@pinterest.com",
+      "Customer Phone": 67528557,
+      "Account Number": 5904,
+      "Customer Status": "Smart Wi-Fi Light Bulbs"
+    },
+    {
+      "CIFId": 246433,
+      "Customer Name": "Aldwin",
+      "Customer Email": "aboast13@geocities.com",
+      "Customer Phone": 69229169,
+      "Account Number": 5483,
+      "Customer Status": "Outdoor Adventure Kit"
+    },
+    {
+      "CIFId": 317590,
+      "Customer Name": "Stearn",
+      "Customer Email": "seccleston14@yahoo.com",
+      "Customer Phone": 67734630,
+      "Account Number": 9610,
+      "Customer Status": "Oven-Baked Potato Chips"
+    },
+    {
+      "CIFId": 217665,
+      "Customer Name": "Rocky",
+      "Customer Email": "rdellar15@blogspot.com",
+      "Customer Phone": 65121517,
+      "Account Number": 9778,
+      "Customer Status": "Mango Chutney"
+    },
+    {
+      "CIFId": 378715,
+      "Customer Name": "Laurette",
+      "Customer Email": "lblofeld16@1688.com",
+      "Customer Phone": 68433697,
+      "Account Number": 4566,
+      "Customer Status": "Silicone Baking Molds"
+    },
+    {
+      "CIFId": 351718,
+      "Customer Name": "Victoir",
+      "Customer Email": "vtrundler17@blogger.com",
+      "Customer Phone": 63102246,
+      "Account Number": 8868,
+      "Customer Status": "Cheddar Cheese Crackers"
+    },
+    {
+      "CIFId": 356988,
+      "Customer Name": "Ally",
+      "Customer Email": "akubas18@ucsd.edu",
+      "Customer Phone": 63534829,
+      "Account Number": 7521,
+      "Customer Status": "Apple Sauce"
+    },
+    {
+      "CIFId": 252621,
+      "Customer Name": "Crissie",
+      "Customer Email": "clestrange19@mapquest.com",
+      "Customer Phone": 68356472,
+      "Account Number": 4358,
+      "Customer Status": "Garam Masala Spice Blend"
+    },
+    {
+      "CIFId": 288772,
+      "Customer Name": "Gates",
+      "Customer Email": "gknowles1a@creativecommons.org",
+      "Customer Phone": 63936936,
+      "Account Number": 4023,
+      "Customer Status": "Sourdough Bread"
+    },
+    {
+      "CIFId": 249704,
+      "Customer Name": "Anne-marie",
+      "Customer Email": "amayes1b@hc360.com",
+      "Customer Phone": 68080224,
+      "Account Number": 2956,
+      "Customer Status": "Memory Card"
+    },
+    {
+      "CIFId": 333211,
+      "Customer Name": "Tedie",
+      "Customer Email": "tludlam1c@ycombinator.com",
+      "Customer Phone": 62827706,
+      "Account Number": 2592,
+      "Customer Status": "Cat Scratching Post with Toys"
+    },
+    {
+      "CIFId": 386144,
+      "Customer Name": "Rebe",
+      "Customer Email": "rjoselevitch1d@yelp.com",
+      "Customer Phone": 67576991,
+      "Account Number": 3113,
+      "Customer Status": "Cheddar Cheese Slices"
+    },
+    {
+      "CIFId": 249437,
+      "Customer Name": "Patty",
+      "Customer Email": "pkording1e@soup.io",
+      "Customer Phone": 67561163,
+      "Account Number": 1403,
+      "Customer Status": "Coffee Making Kit"
+    },
+    {
+      "CIFId": 364715,
+      "Customer Name": "Wang",
+      "Customer Email": "wirnis1f@springer.com",
+      "Customer Phone": 65772367,
+      "Account Number": 8861,
+      "Customer Status": "Maxi Wrap Dress"
+    },
+    {
+      "CIFId": 217445,
+      "Customer Name": "Filia",
+      "Customer Email": "fdunckley1g@youtu.be",
+      "Customer Phone": 65433586,
+      "Account Number": 2767,
+      "Customer Status": "Teriyaki Chicken Stir-Fry"
+    },
+    {
+      "CIFId": 244157,
+      "Customer Name": "Dorry",
+      "Customer Email": "dcarbett1h@earthlink.net",
+      "Customer Phone": 68315750,
+      "Account Number": 9773,
+      "Customer Status": "Mango Chia Pudding"
+    },
+    {
+      "CIFId": 332520,
+      "Customer Name": "Maryann",
+      "Customer Email": "madame1i@marriott.com",
+      "Customer Phone": 67155928,
+      "Account Number": 3692,
+      "Customer Status": "Nutty Trail Mix"
+    },
+    {
+      "CIFId": 272867,
+      "Customer Name": "Chadd",
+      "Customer Email": "crussam1j@wikipedia.org",
+      "Customer Phone": 64373479,
+      "Account Number": 7879,
+      "Customer Status": "Robot Vacuum Cleaner"
+    },
+    {
+      "CIFId": 326418,
+      "Customer Name": "Odille",
+      "Customer Email": "ocheng1k@sfgate.com",
+      "Customer Phone": 66426797,
+      "Account Number": 8719,
+      "Customer Status": "Puzzle Game Set"
+    },
+    {
+      "CIFId": 360759,
+      "Customer Name": "Susana",
+      "Customer Email": "scoste1l@house.gov",
+      "Customer Phone": 68637037,
+      "Account Number": 2692,
+      "Customer Status": "Pet Reflective Vest"
+    },
+    {
+      "CIFId": 232054,
+      "Customer Name": "Tyrone",
+      "Customer Email": "ttocher1m@deliciousdays.com",
+      "Customer Phone": 63052188,
+      "Account Number": 3748,
+      "Customer Status": "Mediterranean Flatbread"
+    },
+    {
+      "CIFId": 259133,
+      "Customer Name": "Darrick",
+      "Customer Email": "dweal1n@exblog.jp",
+      "Customer Phone": 66000102,
+      "Account Number": 1809,
+      "Customer Status": "Stainless Steel Water Bottle"
+    },
+    {
+      "CIFId": 236082,
+      "Customer Name": "Carry",
+      "Customer Email": "ckerwood1o@parallels.com",
+      "Customer Phone": 66357244,
+      "Account Number": 5342,
+      "Customer Status": "Printed Maxi Skirt"
+    },
+    {
+      "CIFId": 372869,
+      "Customer Name": "Robinia",
+      "Customer Email": "rjeannot1p@google.nl",
+      "Customer Phone": 66620982,
+      "Account Number": 9314,
+      "Customer Status": "Balsamic Fig Dressing"
+    },
+    {
+      "CIFId": 389587,
+      "Customer Name": "Alexandros",
+      "Customer Email": "agettings1q@samsung.com",
+      "Customer Phone": 68973227,
+      "Account Number": 4117,
+      "Customer Status": "Zesty Cilantro Lime Dressing"
+    },
+    {
+      "CIFId": 362980,
+      "Customer Name": "Evelyn",
+      "Customer Email": "ejurgensen1r@kickstarter.com",
+      "Customer Phone": 64109615,
+      "Account Number": 8307,
+      "Customer Status": "Frozen Hash Browns"
+    },
+    {
+      "CIFId": 309433,
+      "Customer Name": "Lucita",
+      "Customer Email": "laudry1s@bandcamp.com",
+      "Customer Phone": 63868734,
+      "Account Number": 1526,
+      "Customer Status": "Sparkling Blood Orange Soda"
+    },
+    {
+      "CIFId": 311063,
+      "Customer Name": "Carlota",
+      "Customer Email": "crawood1t@gizmodo.com",
+      "Customer Phone": 68840318,
+      "Account Number": 4446,
+      "Customer Status": "Silicone Baking Mat"
+    },
+    {
+      "CIFId": 372178,
+      "Customer Name": "Ruddie",
+      "Customer Email": "rgregorowicz1u@ask.com",
+      "Customer Phone": 63333770,
+      "Account Number": 2453,
+      "Customer Status": "Fishing Rod"
+    },
+    {
+      "CIFId": 392518,
+      "Customer Name": "Connie",
+      "Customer Email": "cbanstead1v@epa.gov",
+      "Customer Phone": 68690908,
+      "Account Number": 5199,
+      "Customer Status": "Kids' Educational Tablet"
+    },
+    {
+      "CIFId": 326322,
+      "Customer Name": "Gunner",
+      "Customer Email": "ggarrat1w@hostgator.com",
+      "Customer Phone": 63558604,
+      "Account Number": 8993,
+      "Customer Status": "Carrot and Celery Sticks"
+    },
+    {
+      "CIFId": 283371,
+      "Customer Name": "Loria",
+      "Customer Email": "lbeamont1x@soundcloud.com",
+      "Customer Phone": 64471693,
+      "Account Number": 9824,
+      "Customer Status": "3D Night Light"
+    },
+    {
+      "CIFId": 277884,
+      "Customer Name": "Ric",
+      "Customer Email": "rgrimsdike1y@mozilla.org",
+      "Customer Phone": 63426202,
+      "Account Number": 5936,
+      "Customer Status": "Spice Rack"
+    },
+    {
+      "CIFId": 279173,
+      "Customer Name": "Delano",
+      "Customer Email": "dgiacoppoli1z@accuweather.com",
+      "Customer Phone": 68435941,
+      "Account Number": 8133,
+      "Customer Status": "Stylish Wide-Leg Trousers"
+    },
+    {
+      "CIFId": 291439,
+      "Customer Name": "Dolley",
+      "Customer Email": "dsamber20@geocities.jp",
+      "Customer Phone": 69870160,
+      "Account Number": 2933,
+      "Customer Status": "Pet Nail Clipper"
+    },
+    {
+      "CIFId": 220153,
+      "Customer Name": "Perry",
+      "Customer Email": "pswapp21@discovery.com",
+      "Customer Phone": 60176604,
+      "Account Number": 4547,
+      "Customer Status": "Sun-Dried Tomatoes"
+    },
+    {
+      "CIFId": 299486,
+      "Customer Name": "Abdul",
+      "Customer Email": "ajanik22@theatlantic.com",
+      "Customer Phone": 64719725,
+      "Account Number": 1642,
+      "Customer Status": "Coconut Curry Chicken"
+    },
+    {
+      "CIFId": 375686,
+      "Customer Name": "Jaynell",
+      "Customer Email": "jduffett23@wp.com",
+      "Customer Phone": 69031528,
+      "Account Number": 2028,
+      "Customer Status": "Mini Projector"
+    },
+    {
+      "CIFId": 278844,
+      "Customer Name": "Evan",
+      "Customer Email": "emollison24@privacy.gov.au",
+      "Customer Phone": 64809147,
+      "Account Number": 4172,
+      "Customer Status": "DIY Lip Balm Kit"
+    },
+    {
+      "CIFId": 351231,
+      "Customer Name": "Lisbeth",
+      "Customer Email": "lmalatalant25@biblegateway.com",
+      "Customer Phone": 65300551,
+      "Account Number": 9126,
+      "Customer Status": "Video Camera"
+    },
+    {
+      "CIFId": 246015,
+      "Customer Name": "Myriam",
+      "Customer Email": "mgibbin26@ovh.net",
+      "Customer Phone": 62411429,
+      "Account Number": 7251,
+      "Customer Status": "Art Supplies Organizer"
+    },
+    {
+      "CIFId": 200482,
+      "Customer Name": "Jasper",
+      "Customer Email": "jtwist27@jiathis.com",
+      "Customer Phone": 63699736,
+      "Account Number": 4022,
+      "Customer Status": "Phone Case"
+    },
+    {
+      "CIFId": 242737,
+      "Customer Name": "Aldric",
+      "Customer Email": "akidstoun28@pen.io",
+      "Customer Phone": 64733362,
+      "Account Number": 3441,
+      "Customer Status": "V-Neck Sweater"
+    },
+    {
+      "CIFId": 339701,
+      "Customer Name": "Vanna",
+      "Customer Email": "vgaskarth29@ebay.com",
+      "Customer Phone": 64506725,
+      "Account Number": 3873,
+      "Customer Status": "Cinnamon Rolls"
+    },
+    {
+      "CIFId": 297429,
+      "Customer Name": "Buckie",
+      "Customer Email": "bpitcher2a@cloudflare.com",
+      "Customer Phone": 66145673,
+      "Account Number": 5950,
+      "Customer Status": "Air Fryer"
+    },
+    {
+      "CIFId": 281339,
+      "Customer Name": "Kilian",
+      "Customer Email": "kfeare2b@dailymotion.com",
+      "Customer Phone": 60507011,
+      "Account Number": 6097,
+      "Customer Status": "Ergonomic Gaming Chair"
+    },
+    {
+      "CIFId": 373224,
+      "Customer Name": "Francisca",
+      "Customer Email": "fstockill2c@answers.com",
+      "Customer Phone": 68872787,
+      "Account Number": 7537,
+      "Customer Status": "Self-Adhesive Wallpaper"
+    },
+    {
+      "CIFId": 377619,
+      "Customer Name": "Alvie",
+      "Customer Email": "ainold2d@google.com",
+      "Customer Phone": 69713572,
+      "Account Number": 3661,
+      "Customer Status": "Blueberry Muffin Mix"
+    },
+    {
+      "CIFId": 219602,
+      "Customer Name": "Kattie",
+      "Customer Email": "krenahan2e@amazon.co.uk",
+      "Customer Phone": 62819452,
+      "Account Number": 3027,
+      "Customer Status": "Wooden Blocks"
+    },
+    {
+      "CIFId": 273865,
+      "Customer Name": "Rakel",
+      "Customer Email": "rscarsbrick2f@arizona.edu",
+      "Customer Phone": 69114700,
+      "Account Number": 4432,
+      "Customer Status": "Vegetable Curry"
+    },
+    {
+      "CIFId": 228945,
+      "Customer Name": "Claudelle",
+      "Customer Email": "crandal2g@census.gov",
+      "Customer Phone": 65036037,
+      "Account Number": 5719,
+      "Customer Status": "Egg Noodles"
+    },
+    {
+      "CIFId": 393192,
+      "Customer Name": "Audie",
+      "Customer Email": "amalamore2h@wordpress.com",
+      "Customer Phone": 60312505,
+      "Account Number": 1275,
+      "Customer Status": "Coconut Lime Rice"
+    },
+    {
+      "CIFId": 243717,
+      "Customer Name": "Christian",
+      "Customer Email": "cosichev2i@wired.com",
+      "Customer Phone": 68225146,
+      "Account Number": 9973,
+      "Customer Status": "Turkey Bacon"
+    },
+    {
+      "CIFId": 284156,
+      "Customer Name": "Rhodie",
+      "Customer Email": "rhobell2j@nymag.com",
+      "Customer Phone": 67415221,
+      "Account Number": 9946,
+      "Customer Status": "Digital Food Scale"
+    },
+    {
+      "CIFId": 379145,
+      "Customer Name": "Martguerita",
+      "Customer Email": "mgrube2k@51.la",
+      "Customer Phone": 65709735,
+      "Account Number": 9407,
+      "Customer Status": "Maple Cinnamon Granola"
+    },
+    {
+      "CIFId": 221769,
+      "Customer Name": "Libbie",
+      "Customer Email": "lrittmeier2l@lycos.com",
+      "Customer Phone": 61682082,
+      "Account Number": 9114,
+      "Customer Status": "Bluetooth Tracker"
+    },
+    {
+      "CIFId": 260221,
+      "Customer Name": "Borden",
+      "Customer Email": "brogeron2m@examiner.com",
+      "Customer Phone": 67747450,
+      "Account Number": 2408,
+      "Customer Status": "Pumpkin Spice Cookies"
+    },
+    {
+      "CIFId": 246789,
+      "Customer Name": "Nathalie",
+      "Customer Email": "nalejandre2n@last.fm",
+      "Customer Phone": 66861104,
+      "Account Number": 1324,
+      "Customer Status": "Smart Home Security Camera"
+    },
+    {
+      "CIFId": 231739,
+      "Customer Name": "Stefanie",
+      "Customer Email": "srylstone2o@issuu.com",
+      "Customer Phone": 69501032,
+      "Account Number": 6315,
+      "Customer Status": "Fruit Medley Juice"
+    },
+    {
+      "CIFId": 203372,
+      "Customer Name": "Idell",
+      "Customer Email": "iprendiville2p@flavors.me",
+      "Customer Phone": 67023743,
+      "Account Number": 7709,
+      "Customer Status": "Himalayan Salt Grinder"
+    },
+    {
+      "CIFId": 342746,
+      "Customer Name": "Byron",
+      "Customer Email": "bholsey2q@tripod.com",
+      "Customer Phone": 66434780,
+      "Account Number": 5345,
+      "Customer Status": "Frozen Mixed Vegetables"
+    },
+    {
+      "CIFId": 237920,
+      "Customer Name": "Josee",
+      "Customer Email": "jbuddleigh2r@sun.com",
+      "Customer Phone": 61631595,
+      "Account Number": 9474,
+      "Customer Status": "Pet Hair Remover"
+    }
+  ]
 }
