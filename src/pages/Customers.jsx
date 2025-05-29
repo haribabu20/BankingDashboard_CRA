@@ -10,6 +10,10 @@ export default function Customers() {
   const [customerData, setCustomerData] = useState(null);
   const [allCustomers, setAllCustomers] = useState([]);
   const [notFound, setNotFound] = useState(false);
+  const [sortField, setSortField] = useState('');
+  const [sortOrder, setSortOrder] = useState('asc');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
   useEffect(() => {
     loadCustomers();
@@ -42,7 +46,7 @@ export default function Customers() {
   const handleDelete = async (id) => {
     try {
       await deleteCustomer(id);
-      loadCustomers(); // refresh table
+      loadCustomers();
       if (customerData?.id === id) {
         setCustomerData(null);
       }
@@ -50,6 +54,27 @@ export default function Customers() {
       console.error('Delete failed:', err);
     }
   };
+
+  const handleSort = (field) => {
+    const order = sortField === field && sortOrder === 'asc' ? 'desc' : 'asc';
+    setSortField(field);
+    setSortOrder(order);
+    const sorted = [...allCustomers].sort((a, b) => {
+      const aValue = a[field];
+      const bValue = b[field];
+      if (aValue < bValue) return order === 'asc' ? -1 : 1;
+      if (aValue > bValue) return order === 'asc' ? 1 : -1;
+      return 0;
+    });
+    setAllCustomers(sorted);
+  };
+
+  const paginatedData = allCustomers.slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+
+  const totalPages = Math.ceil(allCustomers.length / itemsPerPage);
 
   return (
     <div className="p-6">
@@ -89,17 +114,21 @@ export default function Customers() {
         <table className="w-full border-collapse rounded overflow-hidden text-sm">
           <thead>
             <tr className="bg-gray-800 text-white">
-              <th className="px-4 py-2 text-left">CIF ID</th>
-              <th className="px-4 py-2 text-left">Name</th>
-              <th className="px-4 py-2 text-left">Email</th>
-              <th className="px-4 py-2 text-left">Phone</th>
-              <th className="px-4 py-2 text-left">Account #</th>
-              <th className="px-4 py-2 text-left">Status</th>
+              {['CIFId', 'Customer Name', 'Customer Email', 'Customer Phone', 'Account Number', 'Customer Status'].map((field) => (
+                <th
+                  key={field}
+                  className="px-4 py-2 text-left cursor-pointer"
+                  onClick={() => handleSort(field)}
+                >
+                  {field}
+                  {sortField === field && (sortOrder === 'asc' ? ' 🔼' : ' 🔽')}
+                </th>
+              ))}
               <th className="px-4 py-2 text-left">Action</th>
             </tr>
           </thead>
           <tbody>
-            {allCustomers.map((cust) => (
+            {paginatedData.map((cust) => (
               <tr key={cust.id} className="bg-gray-900 text-white border-b border-gray-800">
                 <td className="px-4 py-2">{cust['CIFId']}</td>
                 <td className="px-4 py-2">{cust['Customer Name']}</td>
@@ -126,10 +155,28 @@ export default function Customers() {
             )}
           </tbody>
         </table>
+
+        {/* Pagination Controls */}
+        <div className="flex justify-between items-center mt-4">
+          <button
+            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+            disabled={currentPage === 1}
+            className="bg-gray-600 text-white px-3 py-1 rounded disabled:opacity-50"
+          >
+            Previous
+          </button>
+          <span className="text-sm">
+            Page {currentPage} of {totalPages}
+          </span>
+          <button
+            onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+            disabled={currentPage === totalPages}
+            className="bg-gray-600 text-white px-3 py-1 rounded disabled:opacity-50"
+          >
+            Next
+          </button>
+        </div>
       </div>
     </div>
   );
 }
-// This code is a React component that allows users to search for customer details by CIF ID, view all customers, and delete a customer. It uses the `customerApi` service to interact with the backend API for fetching and deleting customer data.
-
-
